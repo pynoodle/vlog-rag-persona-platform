@@ -1,0 +1,945 @@
+================================================================================
+📊 전체 STT 데이터 토픽 분석 결과
+================================================================================
+
+총 영상: 2255개
+텍스트 있음: 536개
+분석 채널: 65개
+
+================================================================================
+📋 토픽별 영상 수 요약
+================================================================================
+
+🍳 음식 & 요리: 313개 영상
+🏠 일상 & 라이프스타일: 310개 영상
+📱 스마트폰 & IT: 292개 영상
+💑 관계 & 친구: 292개 영상
+🎥 콘텐츠 제작: 271개 영상
+💼 비즈니스 & 창업: 243개 영상
+🎬 엔터테인먼트: 225개 영상
+📚 학교 & 공부: 216개 영상
+👗 패션 & 쇼핑: 209개 영상
+✈️ 여행 & 휴가: 182개 영상
+💪 건강 & 피트니스: 171개 영상
+🎨 뷰티 & 메이크업: 163개 영상
+🌱 환경 & 사회: 157개 영상
+
+
+================================================================================
+🍳 음식 & 요리 (313개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - eat: 1657회
+  - cook: 338회
+  - food: 289회
+  - lunch: 262회
+  - recipe: 154회
+  - drink: 136회
+  - kitchen: 129회
+  - coffee: 114회
+  - 먹: 105회
+  - dinner: 96회
+  - meal: 75회
+  - ingredient: 43회
+  - restaurant: 42회
+  - breakfast: 38회
+  - 요리: 18회
+  - dessert: 10회
+  - 커피: 8회
+  - 식사: 6회
+  - 음식: 5회
+  - 카페: 5회
+
+📺 채널별 분포:
+  - Philip Lemoine: 42개
+  - simply misha: 41개
+  - Kati† J: 41개
+  - Rena Gao: 23개
+  - The Stella Show: 23개
+  - emma chamberlain: 20개
+  - Mona Odia Vlogs: 18개
+  - MollyMae: 12개
+  - Stardust by Allie: 11개
+  - Cas Jerome: 10개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] 4K Export Settings for Tiktok, Instagram, and YouTube Shorts
+      채널: Philip Lemoine
+      조회수: 9715
+      URL: https://www.youtube.com/watch?v=EeAD1ExUB_M
+
+  [4] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+🏠 일상 & 라이프스타일 (310개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - day: 2258회
+  - home: 439회
+  - life: 371회
+  - room: 305회
+  - house: 283회
+  - morning: 259회
+  - vlog: 255회
+  - clean: 190회
+  - routine: 165회
+  - 집: 93회
+  - 방: 68회
+  - organize: 39회
+  - apartment: 28회
+  - daily: 25회
+  - bedroom: 16회
+  - decoration: 9회
+  - 정리: 1회
+  - 브이로그: 1회
+
+📺 채널별 분포:
+  - Kati† J: 43개
+  - simply misha: 40개
+  - Philip Lemoine: 33개
+  - The Stella Show: 29개
+  - Rena Gao: 25개
+  - emma chamberlain: 20개
+  - Mona Odia Vlogs: 19개
+  - Kylie Jenner: 13개
+  - MollyMae: 12개
+  - Stardust by Allie: 12개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+📱 스마트폰 & IT (292개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - video: 1567회
+  - app: 1449회
+  - phone: 601회
+  - camera: 588회
+  - case: 259회
+  - screen: 196회
+  - photo: 150회
+  - iphone: 83회
+  - ipad: 77회
+  - battery: 73회
+  - computer: 50회
+  - laptop: 23회
+  - charger: 22회
+  - smartphone: 22회
+  - android: 10회
+  - 폰: 7회
+  - tablet: 6회
+  - 카메라: 4회
+  - 앱: 4회
+
+📺 채널별 분포:
+  - simply misha: 43개
+  - Kati† J: 43개
+  - Philip Lemoine: 43개
+  - Rena Gao: 23개
+  - The Stella Show: 22개
+  - emma chamberlain: 20개
+  - Mona Odia Vlogs: 15개
+  - MollyMae: 12개
+  - Stardust by Allie: 11개
+  - Kayla Itsines: 10개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] 4K Export Settings for Tiktok, Instagram, and YouTube Shorts
+      채널: Philip Lemoine
+      조회수: 9715
+      URL: https://www.youtube.com/watch?v=EeAD1ExUB_M
+
+  [4] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+💑 관계 & 친구 (292개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - love: 1347회
+  - mom: 446회
+  - friend: 400회
+  - dad: 146회
+  - family: 118회
+  - date: 101회
+  - sister: 48회
+  - 친구: 32회
+  - relationship: 27회
+  - 엄마: 21회
+  - brother: 20회
+  - partner: 19회
+  - 사랑: 18회
+  - friendship: 15회
+  - boyfriend: 10회
+  - 아빠: 10회
+  - girlfriend: 7회
+  - 가족: 3회
+  - 여친: 1회
+
+📺 채널별 분포:
+  - Kati† J: 44개
+  - simply misha: 42개
+  - Philip Lemoine: 32개
+  - The Stella Show: 27개
+  - emma chamberlain: 20개
+  - Rena Gao: 20개
+  - Mona Odia Vlogs: 16개
+  - MollyMae: 12개
+  - Stardust by Allie: 11개
+  - Cas Jerome: 11개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+🎥 콘텐츠 제작 (271개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - video: 1567회
+  - camera: 588회
+  - film: 321회
+  - youtube: 298회
+  - vlog: 255회
+  - edit: 217회
+  - content: 185회
+  - shoot: 182회
+  - filming: 149회
+  - creator: 97회
+  - editing: 82회
+  - thumbnail: 82회
+  - 영상: 69회
+  - lighting: 68회
+  - upload: 55회
+  - 유튜브: 15회
+  - 촬영: 15회
+  - 콘텐츠: 1회
+  - 편집: 1회
+
+📺 채널별 분포:
+  - Kati† J: 43개
+  - Philip Lemoine: 43개
+  - simply misha: 41개
+  - Rena Gao: 21개
+  - The Stella Show: 20개
+  - emma chamberlain: 17개
+  - Mona Odia Vlogs: 13개
+  - MollyMae: 12개
+  - Stardust by Allie: 11개
+  - James Charles: 9개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] 4K Export Settings for Tiktok, Instagram, and YouTube Shorts
+      채널: Philip Lemoine
+      조회수: 9715
+      URL: https://www.youtube.com/watch?v=EeAD1ExUB_M
+
+  [4] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+💼 비즈니스 & 창업 (243개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - work: 749회
+  - product: 427회
+  - brand: 273회
+  - business: 145회
+  - office: 126회
+  - launch: 104회
+  - meeting: 46회
+  - marketing: 45회
+  - company: 40회
+  - sales: 13회
+  - 제품: 6회
+  - entrepreneur: 6회
+  - client: 6회
+  - 사업: 2회
+  - startup: 2회
+  - 브랜드: 1회
+
+📺 채널별 분포:
+  - Kati† J: 36개
+  - Philip Lemoine: 36개
+  - simply misha: 32개
+  - emma chamberlain: 20개
+  - The Stella Show: 15개
+  - MollyMae: 12개
+  - Stardust by Allie: 11개
+  - Rena Gao: 11개
+  - James Charles: 10개
+  - Kayla Itsines: 9개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+🎬 엔터테인먼트 (225개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - show: 669회
+  - music: 115회
+  - event: 91회
+  - song: 75회
+  - party: 73회
+  - movie: 65회
+  - festival: 15회
+  - album: 14회
+  - performance: 10회
+  - concert: 7회
+  - entertainment: 7회
+  - celebrity: 6회
+  - 영화: 5회
+  - 공연: 4회
+  - 음악: 4회
+  - 파티: 1회
+
+📺 채널별 분포:
+  - Kati† J: 37개
+  - simply misha: 36개
+  - Philip Lemoine: 25개
+  - emma chamberlain: 20개
+  - The Stella Show: 17개
+  - Rena Gao: 15개
+  - MollyMae: 12개
+  - Stardust by Allie: 8개
+  - Cas Jerome: 8개
+  - James Charles: 8개
+
+⭐ 인기 영상 TOP 5:
+  [1] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [2] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [3] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] WHAT’S IN MY BAG? (japan edition)🎐🐇 : 30 aesthetic travel essentials, monthly favorites | STANDOIL
+      채널: simply misha
+      조회수: 93672
+      URL: https://www.youtube.com/watch?v=igpmjl_1p8k
+
+
+================================================================================
+📚 학교 & 공부 (216개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - school: 442회
+  - class: 202회
+  - test: 174회
+  - exam: 131회
+  - learn: 111회
+  - grade: 80회
+  - pencil: 71회
+  - study: 61회
+  - notebook: 42회
+  - student: 25회
+  - college: 22회
+  - education: 10회
+  - homework: 8회
+  - university: 6회
+  - 학교: 5회
+  - 공부: 4회
+  - 대학: 1회
+
+📺 채널별 분포:
+  - simply misha: 39개
+  - Kati† J: 33개
+  - Philip Lemoine: 29개
+  - emma chamberlain: 19개
+  - Mona Odia Vlogs: 13개
+  - Rena Gao: 12개
+  - MollyMae: 11개
+  - James Charles: 10개
+  - The Stella Show: 10개
+  - Cas Jerome: 9개
+
+⭐ 인기 영상 TOP 5:
+  [1] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [2] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [3] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [4] 6 Things Cooking Creators NEED In Their Kitchen Studio
+      채널: Philip Lemoine
+      조회수: 9470
+      URL: https://www.youtube.com/watch?v=dUSiBp_m8K0
+
+  [5] 7 WAYS TO RESET FOR A NEW MONTH | HOW TO DO A MONTHLY RESET 2024
+      채널: Kati† J
+      조회수: 92
+      URL: https://www.youtube.com/watch?v=-ynHMHU4DgA
+
+
+================================================================================
+👗 패션 & 쇼핑 (209개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - wear: 417회
+  - bag: 381회
+  - outfit: 280회
+  - dress: 270회
+  - style: 186회
+  - shirt: 113회
+  - clothes: 106회
+  - shoes: 76회
+  - shopping: 62회
+  - fashion: 42회
+  - jeans: 39회
+  - haul: 25회
+  - 옷: 16회
+  - jewelry: 13회
+  - accessory: 12회
+  - wardrobe: 11회
+  - 스타일: 7회
+  - 쇼핑: 5회
+  - 신발: 2회
+  - 가방: 1회
+
+📺 채널별 분포:
+  - Kati† J: 36개
+  - simply misha: 35개
+  - Philip Lemoine: 24개
+  - emma chamberlain: 19개
+  - The Stella Show: 18개
+  - MollyMae: 12개
+  - Rena Gao: 10개
+  - James Charles: 8개
+  - Mona Odia Vlogs: 8개
+  - Stardust by Allie: 6개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+✈️ 여행 & 휴가 (182개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - trip: 164회
+  - tour: 147회
+  - travel: 88회
+  - flight: 61회
+  - beach: 52회
+  - city: 44회
+  - country: 36회
+  - visit: 36회
+  - hotel: 28회
+  - airport: 25회
+  - vacation: 13회
+  - destination: 8회
+  - adventure: 6회
+  - 여행: 3회
+  - 휴가: 1회
+  - 비행기: 1회
+  - 호텔: 1회
+
+📺 채널별 분포:
+  - simply misha: 28개
+  - Kati† J: 23개
+  - Philip Lemoine: 21개
+  - emma chamberlain: 17개
+  - Rena Gao: 15개
+  - MollyMae: 11개
+  - The Stella Show: 11개
+  - James Charles: 9개
+  - Stardust by Allie: 8개
+  - Cas Jerome: 7개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+💪 건강 & 피트니스 (171개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - body: 340회
+  - routine: 165회
+  - weight: 83회
+  - health: 73회
+  - gym: 73회
+  - workout: 63회
+  - exercise: 31회
+  - muscle: 16회
+  - training: 15회
+  - yoga: 14회
+  - fitness: 3회
+  - 운동: 3회
+  - cardio: 2회
+  - 다이어트: 2회
+  - 건강: 2회
+  - diet: 2회
+  - 요가: 1회
+
+📺 채널별 분포:
+  - Kati† J: 28개
+  - simply misha: 23개
+  - emma chamberlain: 20개
+  - The Stella Show: 13개
+  - MollyMae: 12개
+  - Kayla Itsines: 12개
+  - James Charles: 9개
+  - Philip Lemoine: 8개
+  - Rena Gao: 7개
+  - Mona Odia Vlogs: 7개
+
+⭐ 인기 영상 TOP 5:
+  [1] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [2] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [3] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] 7 WAYS TO RESET FOR A NEW MONTH | HOW TO DO A MONTHLY RESET 2024
+      채널: Kati† J
+      조회수: 92
+      URL: https://www.youtube.com/watch?v=-ynHMHU4DgA
+
+
+================================================================================
+🎨 뷰티 & 메이크업 (163개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - hair: 464회
+  - makeup: 440회
+  - nail: 174회
+  - foundation: 152회
+  - blush: 138회
+  - beauty: 121회
+  - concealer: 96회
+  - mascara: 74회
+  - primer: 44회
+  - skincare: 43회
+  - eyeshadow: 41회
+  - lipstick: 40회
+  - serum: 30회
+  - moisturizer: 24회
+  - 메이크업: 5회
+  - 화장: 5회
+  - 헤어: 4회
+
+📺 채널별 분포:
+  - simply misha: 28개
+  - Kati† J: 28개
+  - emma chamberlain: 15개
+  - Philip Lemoine: 14개
+  - The Stella Show: 14개
+  - MollyMae: 12개
+  - Cas Jerome: 9개
+  - James Charles: 8개
+  - Kylie Jenner: 8개
+  - Stardust by Allie: 7개
+
+⭐ 인기 영상 TOP 5:
+  [1] BUYING THE iPHONE 16 PRO MAX VLOG! Small Business Day in My Life
+      채널: Stardust by Allie
+      조회수: 9910
+      URL: https://www.youtube.com/watch?v=PMoIhFmLkTU
+
+  [2] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [3] BACK TO SCHOOL prep 2024 🎧🐰 : what’s in my backpack, pinterest school girl, vision board + tips
+      채널: simply misha
+      조회수: 966530
+      URL: https://www.youtube.com/watch?v=ZAo5h0m8aXI
+
+  [4] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953430
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+  [5] casual new york tourism
+      채널: emma chamberlain
+      조회수: 953287
+      URL: https://www.youtube.com/watch?v=y5uwVYSbNb8
+
+
+================================================================================
+🌱 환경 & 사회 (157개 영상)
+================================================================================
+
+🔑 주요 키워드 (언급 횟수):
+  - change: 298회
+  - future: 68회
+  - climate: 43회
+  - crisis: 29회
+  - planet: 22회
+  - carbon: 21회
+  - environment: 19회
+  - emissions: 18회
+  - 미래: 3회
+  - protest: 3회
+  - activism: 2회
+  - sustainability: 2회
+  - 환경: 1회
+  - 변화: 1회
+
+📺 채널별 분포:
+  - simply misha: 30개
+  - Philip Lemoine: 25개
+  - Kati† J: 22개
+  - MollyMae: 12개
+  - Greta Thunberg: 12개
+  - emma chamberlain: 11개
+  - James Charles: 9개
+  - Rena Gao: 8개
+  - Stardust by Allie: 5개
+  - Cas Jerome: 4개
+
+⭐ 인기 영상 TOP 5:
+  [1] HELLO !!! SPEND A FULL DAY WITH ME | VLOG | MOLLYMAE
+      채널: MollyMae
+      조회수: 988623
+      URL: https://www.youtube.com/watch?v=jrymzxOP8Ns
+
+  [2] 4K Export Settings for Tiktok, Instagram, and YouTube Shorts
+      채널: Philip Lemoine
+      조회수: 9715
+      URL: https://www.youtube.com/watch?v=EeAD1ExUB_M
+
+  [3] 6 Things Cooking Creators NEED In Their Kitchen Studio
+      채널: Philip Lemoine
+      조회수: 9470
+      URL: https://www.youtube.com/watch?v=dUSiBp_m8K0
+
+  [4] JOURNAL WITH ME 🐚🐰 : 5 ways to fill your journal, chat + tips, aesthetic midori b6 slim! ep.2
+      채널: simply misha
+      조회수: 90523
+      URL: https://www.youtube.com/watch?v=tXyuDlwVMWY
+
+  [5] WHAT'S IN MY EMERGENCY KIT 2025 🎀 + SHOPPING @target + BACK TO SCHOOL ESSENTIALS
+      채널: Kati† J
+      조회수: 889
+      URL: https://www.youtube.com/watch?v=8eetRg1Yz0o
+
+
+================================================================================
+📈 전체 단어 빈도 분석 (TOP 100)
+================================================================================
+
+  1. not: 3,215회
+  2. don: 2,673회
+  3. one: 2,418회
+  4. here: 1,750회
+  5. then: 1,630회
+  6. right: 1,627회
+  7. little: 1,559회
+  8. good: 1,508회
+  9. let: 1,504회
+ 10. guys: 1,385회
+ 11. actually: 1,302회
+ 12. more: 1,200회
+ 13. video: 1,159회
+ 14. love: 1,151회
+ 15. feel: 964회
+ 16. bit: 935회
+ 17. put: 931회
+ 18. day: 901회
+ 19. people: 854회
+ 20. next: 825회
+ 21. something: 805회
+ 22. lot: 781회
+ 23. kind: 771회
+ 24. say: 760회
+ 25. doing: 759회
+ 26. literally: 730회
+ 27. two: 720회
+ 28. god: 666회
+ 29. first: 664회
+ 30. down: 655회
+ 31. why: 640회
+ 32. today: 639회
+ 33. over: 629회
+ 34. too: 604회
+ 35. maybe: 598회
+ 36. off: 584회
+ 37. new: 575회
+ 38. come: 566회
+ 39. cute: 564회
+ 40. take: 557회
+ 41. still: 545회
+ 42. camera: 542회
+ 43. try: 503회
+ 44. only: 499회
+ 45. nice: 499회
+ 46. looks: 485회
+ 47. again: 458회
+ 48. give: 456회
+ 49. pretty: 453회
+ 50. great: 451회
+ 51. always: 450회
+ 52. never: 449회
+ 53. before: 449회
+ 54. every: 448회
+ 55. show: 446회
+ 56. didn: 445회
+ 57. last: 443회
+ 58. everything: 440회
+ 59. makeup: 440회
+ 60. done: 438회
+ 61. better: 432회
+ 62. might: 431회
+ 63. school: 424회
+ 64. sure: 414회
+ 65. thank: 412회
+ 66. stuff: 409회
+ 67. same: 406회
+ 68. getting: 401회
+ 69. videos: 398회
+ 70. using: 398회
+ 71. start: 394회
+ 72. phone: 388회
+ 73. big: 378회
+ 74. probably: 374회
+ 75. said: 371회
+ 76. keep: 369회
+ 77. any: 367회
+ 78. light: 362회
+ 79. hair: 361회
+ 80. mean: 359회
+ 81. work: 359회
+ 82. basically: 351회
+ 83. life: 351회
+ 84. color: 351회
+ 85. different: 349회
+ 86. face: 348회
+ 87. home: 347회
+ 88. best: 345회
+ 89. three: 342회
+ 90. long: 341회
+ 91. girl: 340회
+ 92. wait: 337회
+ 93. ever: 334회
+ 94. most: 333회
+ 95. myself: 332회
+ 96. around: 328회
+ 97. already: 327회
+ 98. thought: 326회
+ 99. whole: 325회
+100. tell: 322회
