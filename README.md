@@ -73,6 +73,41 @@ pip install -r requirements.txt
 streamlit run english_persona_gui.py
 ```
 
+## 🔍 RAG Architecture
+
+YouTube 영상 트랜스크립트를 기반으로 각 페르소나의 지식 베이스를 구성하고, 질의응답 시 관련 콘텐츠를 검색해 응답을 생성합니다.
+
+```
+1. Whisper STT          → YouTube 영상 음성을 텍스트로 전사
+2. Paragraph Chunking   → 문단 단위 분리 (최소 50자 필터링)
+3. TF-IDF Vectorization → 1-2 gram, max 1,000 features로 인덱싱
+4. Cosine Similarity    → 질의와 청크 간 유사도 계산
+5. Top-k Retrieval      → 상위 k=2~3개 청크 선택
+6. Prompt Assembly      → 시스템 프롬프트 + 페르소나 정보 + 검색 컨텍스트 결합
+7. LLM Response         → GPT-4o-mini로 페르소나 스타일 응답 생성
+```
+
+> **Note:** 현 구현은 TF-IDF 기반 in-memory 검색을 사용합니다. 대규모 확장 시 FAISS 또는 ChromaDB로 전환 가능한 구조입니다.
+
+## 🛡️ Grounding Strategy
+
+실제로 구현된 hallucination 완화 장치:
+
+| 항목 | 구현 내용 |
+|------|-----------|
+| **Similarity Threshold** | 코사인 유사도 < 0.1인 청크는 컨텍스트에서 제외 (`simple_rag_manager.py:166`) |
+| **Source Citation** | 검색된 청크에 페르소나 이름·역할을 태깅해 응답에 출처 표시 |
+| **Graceful Fallback** | 유사도 임계값을 초과하는 청크가 없을 경우 빈 컨텍스트로 안전하게 처리 |
+| **Retrieval-grounded Prompting** | 검색된 실제 트랜스크립트 내용을 프롬프트에 주입해 창작 응답 억제 |
+
+## 📐 Evaluation
+
+| 항목 | 내용 |
+|------|------|
+| **Retrieval Quality** | TF-IDF 코사인 유사도 점수로 검색 적합도 측정 |
+| **Persona Coherence** | 페르소나별 도메인 키워드 매칭률로 캐릭터 일관성 정성 평가 |
+| **Future Improvements** | Precision@k 측정, 사용자 피드백 루프, semantic embedding(OpenAI/SBERT) 전환 검토 |
+
 ## 📁 프로젝트 구조
 
 ```
