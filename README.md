@@ -2,8 +2,7 @@
 
 > **Built:** October 2025
 
-YouTube 데이터를 수집하고 AI 클러스터링을 통해 Gen Z 인플루언서들의 라이프스타일을 분석하여 개인화된 페르소나 봇을 제공합니다.
-> **Gen Z 인플루언서 30채널 1,560개 영상을 Whisper STT + K-means 클러스터링으로 분석해 RAG 기반 페르소나 챗봇 구현**  
+> **Analyzed 1,560 videos from 30 Gen Z influencer channels via Whisper STT + K-means clustering — RAG-powered persona chatbot grounded in 500M+ views of real content**
 > YouTube → Whisper STT → K-means clustering → TF-IDF RAG → GPT persona chat · 500M+ views data · Deployed on Railway
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -16,20 +15,20 @@ YouTube 데이터를 수집하고 AI 클러스터링을 통해 Gen Z 인플루�
 
 ## 1. Overview
 
-30개 Gen Z 인플루언서 채널의 1,560개 영상을 Whisper STT로 전사하고, K-means 클러스터링으로 라이프스타일 유형을 분류한 뒤 각 클러스터를 대표하는 5개의 가상 페르소나를 생성합니다. 사용자는 이 페르소나들과 RAG 기반 채팅을 통해 실제 인플루언서 콘텐츠를 기반으로 한 라이프스타일 인사이트를 얻을 수 있습니다.
+Transcribed 1,560 videos from 30 Gen Z influencer channels using Whisper STT, then clustered channels by lifestyle type via K-means — resulting in 5 synthetic personas, each grounded in real content data. Users chat with these personas through a RAG-powered Streamlit interface to get lifestyle insights backed by actual influencer transcripts.
 
-**페르소나 라인업:**
-- **Emma** 👩‍🍳: 다재다능한 라이프스타일 (요리, 패션, 예술, 뷰티, 여행)
-- **Victoria** 🏠: 홈 & 뷰티 라이프스타일 (홈데코, 일상, 반려동물 케어)
-- **Misha** 📚: 활발한 콘텐츠 크리에이터 (독서, 저널링, 자기계발, 테크)
-- **Philip** 📸: 예술 & 공예 전문가 (사진, 예술, 공예, 요리)
-- **James** 💄: 뷰티 & 패션 전문가 (뷰티, 패션, 스타일링)
+**Persona Lineup:**
+- **Emma** 👩‍🍳: Multi-lifestyle creator (cooking, fashion, art, beauty, travel)
+- **Victoria** 🏠: Home & beauty lifestyle (home decor, daily life, pet care)
+- **Misha** 📚: Active content creator (reading, journaling, self-improvement, tech)
+- **Philip** 📸: Art & craft specialist (photography, art, crafting, cooking)
+- **James** 💄: Beauty & fashion expert (beauty, fashion, styling)
 
-**프로젝트 통계:**
-- 총 채널 수: 30개 Gen Z 인플루언서 채널
-- 총 영상 수: 1,560개 영상
-- STT 전사본: 1,560개
-- 총 조회수: 500M+
+**Project Stats:**
+- Channels analyzed: 30 Gen Z influencer channels
+- Videos processed: 1,560
+- STT transcripts: 1,560
+- Total views covered: 500M+
 
 ---
 
@@ -38,21 +37,21 @@ YouTube 데이터를 수집하고 AI 클러스터링을 통해 Gen Z 인플루�
 ```mermaid
 flowchart TD
     subgraph COLLECT["📥 Data Collection & Processing"]
-        YT["🎬 YouTube API v3\n채널 메타데이터 + 영상 목록 (30채널)"]
-        STT["🎙️ Whisper STT\n영상 음성 → 텍스트 전사 (1,560개)"]
-        KM["📊 K-means Clustering\n라이프스타일 유형 분류 (5클러스터)"]
-        PCA["🔭 PCA\n2D 시각화 및 클러스터 검증"]
+        YT["🎬 YouTube API v3\nChannel metadata + video list (30 channels)"]
+        STT["🎙️ Whisper STT\nAudio → text transcription (1,560 videos)"]
+        KM["📊 K-means Clustering\nLifestyle type classification (5 clusters)"]
+        PCA["🔭 PCA\n2D visualization & cluster validation"]
     end
 
-    subgraph RAG["🔍 RAG Knowledge Base (페르소나별)"]
-        CHUNK["✂️ Paragraph Chunking\n문단 단위 분리 (≥50자)"]
+    subgraph RAG["🔍 RAG Knowledge Base (per Persona)"]
+        CHUNK["✂️ Paragraph Chunking\nSplit into paragraphs (≥50 chars)"]
         TFIDF["📐 TF-IDF Vectorization\n1-2gram, max 1,000 features"]
-        COSINE["🎯 Cosine Similarity\nTop-k Retrieval (k=2~3)"]
+        COSINE["🎯 Cosine Similarity\nTop-k Retrieval (k=2–3)"]
     end
 
     subgraph CHAT["💬 Streamlit Chat Interface"]
-        UI["🖥️ 멀티 페르소나 채팅\n트렌드 분석 | 라이프스타일 가이드"]
-        LLM["🤖 GPT-4o-mini\nPrompt Assembly → 스트리밍 응답"]
+        UI["🖥️ Multi-persona chat\nTrend analysis | Lifestyle guide"]
+        LLM["🤖 GPT-4o-mini\nPrompt assembly → streaming response"]
     end
 
     YT --> STT --> KM --> PCA
@@ -64,8 +63,8 @@ flowchart TD
 
 ## 3. Tech Stack
 
-| 범주 | 기술 |
-|------|------|
+| Category | Technology |
+|----------|------------|
 | **LLM** | OpenAI GPT-4o-mini |
 | **STT** | OpenAI Whisper |
 | **Clustering** | K-means (Scikit-learn) |
@@ -81,40 +80,40 @@ flowchart TD
 
 ## 4. Core Logic
 
-### RAG Pipeline (실제 구현)
+### RAG Pipeline (as implemented)
 
 ```
-1. Whisper STT          → YouTube 영상 음성을 텍스트로 전사
-2. Paragraph Chunking   → 문단 단위 분리 (최소 50자 필터링)
-3. TF-IDF Vectorization → 1-2 gram, max 1,000 features로 인덱싱
-4. Cosine Similarity    → 질의와 청크 간 유사도 계산
-5. Top-k Retrieval      → 상위 k=2~3개 청크 선택
-6. Prompt Assembly      → 시스템 프롬프트 + 페르소나 정보 + 검색 컨텍스트 결합
-7. LLM Response         → GPT-4o-mini로 페르소나 스타일 응답 생성
+1. Whisper STT          → Transcribe YouTube video audio to text
+2. Paragraph Chunking   → Split transcripts into paragraphs (min 50 chars)
+3. TF-IDF Vectorization → Index with 1-2 gram, max 1,000 features
+4. Cosine Similarity    → Score similarity between query and each chunk
+5. Top-k Retrieval      → Select top k=2–3 chunks
+6. Prompt Assembly      → Combine system prompt + persona info + retrieved context
+7. LLM Response         → Generate persona-style response via GPT-4o-mini
 ```
 
-> **Note:** 현 구현은 TF-IDF 기반 in-memory 검색을 사용합니다. 대규모 확장 시 FAISS 또는 ChromaDB로 전환 가능한 구조입니다.
+> **Note:** Current implementation uses TF-IDF in-memory retrieval. The architecture is designed to be swappable to FAISS or ChromaDB for larger-scale deployments.
 
-### Grounding Strategy (Hallucination 완화)
+### Grounding Strategy (Hallucination Mitigation)
 
-| 항목 | 구현 내용 |
-|------|-----------|
-| **Similarity Threshold** | 코사인 유사도 < 0.1인 청크는 컨텍스트에서 제외 (`simple_rag_manager.py:166`) |
-| **Source Citation** | 검색된 청크에 페르소나 이름·역할을 태깅해 응답에 출처 표시 |
-| **Graceful Fallback** | 임계값을 초과하는 청크가 없을 경우 빈 컨텍스트로 안전하게 처리 |
-| **Retrieval-grounded Prompting** | 검색된 실제 트랜스크립트 내용을 프롬프트에 주입해 창작 응답 억제 |
+| Item | Implementation |
+|------|----------------|
+| **Similarity Threshold** | Chunks with cosine similarity < 0.1 are excluded from context (`simple_rag_manager.py:166`) |
+| **Source Citation** | Retrieved chunks are tagged with persona name and role, surfaced in responses |
+| **Graceful Fallback** | If no chunk clears the threshold, an empty context is passed safely |
+| **Retrieval-grounded Prompting** | Real transcript content is injected into the prompt to suppress hallucinated answers |
 
-### K-means 클러스터링 흐름
+### K-means Clustering
 
 ```python
-# 채널 메타데이터 + 영상 태그를 벡터화 후 5개 클러스터로 분류
+# Vectorize channel metadata + video tags, then classify into 5 clusters
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
 kmeans = KMeans(n_clusters=5, random_state=42)
 cluster_labels = kmeans.fit_predict(feature_matrix)
 
-# PCA로 2D 시각화
+# Reduce to 2D for visualization
 pca = PCA(n_components=2)
 reduced = pca.fit_transform(feature_matrix)
 ```
@@ -123,39 +122,39 @@ reduced = pca.fit_transform(feature_matrix)
 
 ## 5. Evaluation
 
-| 항목 | 내용 |
-|------|------|
-| **Retrieval Quality** | TF-IDF 코사인 유사도 점수로 검색 적합도 측정; 임계값 0.1 기준으로 관련 없는 청크 필터링 |
-| **Persona Coherence** | 페르소나별 도메인 키워드 매칭률로 캐릭터 일관성 정성 평가 (예: Emma 응답에 요리·패션 키워드 비율) |
-| **Clustering Validity** | Elbow Method로 최적 클러스터 수(k=5) 결정; PCA 2D 시각화로 클러스터 분리도 확인 |
-| **Future Improvements** | Precision@k 측정 도입, 사용자 피드백 루프(thumbs up/down), semantic embedding(OpenAI/SBERT) 전환 검토 |
+| Metric | Details |
+|--------|---------|
+| **Retrieval Quality** | TF-IDF cosine similarity score measures retrieval relevance; threshold 0.1 filters out unrelated chunks |
+| **Persona Coherence** | Domain keyword match rate per persona — e.g., proportion of Emma's responses containing cooking/fashion keywords |
+| **Clustering Validity** | Elbow Method used to select k=5; PCA 2D visualization confirms cluster separation |
+| **Future Improvements** | Precision@k measurement, user feedback loop (thumbs up/down), migration to semantic embeddings (OpenAI/SBERT) |
 
 ---
 
 ## 6. Production Considerations
 
-| 항목 | 내용 |
-|------|------|
-| **Scalability** | TF-IDF in-memory 방식은 소규모(~1,560 청크)에 적합; 10만 청크 이상 시 FAISS/ChromaDB 전환 필요 |
-| **STT 처리 비용** | Whisper API 사용 시 영상당 비용 발생 — 대규모 전사 시 비용 계획 필요 |
-| **YouTube API 할당량** | YouTube Data API v3는 일일 할당량 10,000 units; 채널 수집 시 할당량 모니터링 필요 |
-| **Persona Data 갱신** | 인플루언서 신규 영상 반영을 위한 정기적 STT 재처리 및 TF-IDF 인덱스 재빌드 파이프라인 필요 |
-| **Auth Management** | 로그인 자격증명은 `.env`의 `AUTH_USER_ID`, `AUTH_USER_PW`, `AUTH_ADMIN_ID`, `AUTH_ADMIN_PW`로 관리 |
-| **Admin Dashboard** | 사용자 활동 로그(IP별 접속 통계, 검색 패턴)로 사용 현황 모니터링 가능 |
+| Item | Details |
+|------|---------|
+| **Scalability** | TF-IDF in-memory is suitable for ~1,560 chunks; FAISS/ChromaDB migration required at 100K+ chunks |
+| **STT Processing Cost** | Whisper API charges per video; budget planning required for large-scale transcription |
+| **YouTube API Quota** | YouTube Data API v3 has a 10,000 unit daily quota; monitor usage during bulk collection |
+| **Persona Data Refresh** | New influencer videos require periodic STT re-processing and TF-IDF index rebuilds |
+| **Auth Management** | Login credentials managed via `.env` (`AUTH_USER_ID`, `AUTH_USER_PW`, `AUTH_ADMIN_ID`, `AUTH_ADMIN_PW`) |
+| **Admin Dashboard** | User activity logs (per-IP access stats, search patterns) available for usage monitoring |
 
 ---
 
 ## 7. Deployment
 
-### Railway 배포
+### Deploy on Railway
 
-1. GitHub 저장소를 Railway에 연결
-2. 환경 변수 설정:
-   - `OPENAI_API_KEY`: OpenAI API 키 (필수)
-   - `AUTH_USER_ID`, `AUTH_USER_PW`, `AUTH_ADMIN_ID`, `AUTH_ADMIN_PW`: 로그인 자격증명
-3. 자동 배포 완료
+1. Connect the GitHub repository to Railway
+2. Set environment variables:
+   - `OPENAI_API_KEY` (required)
+   - `AUTH_USER_ID`, `AUTH_USER_PW`, `AUTH_ADMIN_ID`, `AUTH_ADMIN_PW`
+3. Railway auto-deploys on push
 
-### 로컬 실행
+### Local Setup
 
 ```bash
 git clone https://github.com/pynoodle/vlog-rag-persona-platform.git
@@ -163,35 +162,35 @@ cd vlog-rag-persona-platform
 
 pip install -r requirements.txt
 
-# .env 파일 생성
+# Create .env file
 echo "OPENAI_API_KEY=your_key_here" > .env
 
-streamlit run english_persona_gui.py
+streamlit run app.py
 ```
 
-### 환경 변수
+### Environment Variables
 
 ```bash
-OPENAI_API_KEY=your_openai_api_key   # 필수
-AUTH_USER_ID=user_id                  # 로그인 시스템
+OPENAI_API_KEY=your_openai_api_key   # required
+AUTH_USER_ID=user_id
 AUTH_USER_PW=user_password
 AUTH_ADMIN_ID=admin_id
 AUTH_ADMIN_PW=admin_password
 ```
 
-### 프로젝트 구조
+### Project Structure
 
 ```
 vlog-rag-persona-platform/
-├── english_persona_gui.py      # 메인 Streamlit 애플리케이션
-├── persona_chatbot_rag.py      # RAG 기반 페르소나 챗봇
-├── cluster_chatbots.py         # 클러스터별 챗봇 관리
-├── simple_rag_manager.py       # TF-IDF RAG 엔진
-├── persona_clusters.csv        # K-means 클러스터링 결과
-├── channel_stats.csv           # 채널 통계
+├── app.py                      # Main Streamlit application
+├── persona_chatbot_rag.py      # RAG-based persona chatbot
+├── cluster_chatbots.py         # Per-cluster chatbot management
+├── simple_rag_manager.py       # TF-IDF RAG engine
+├── persona_clusters.csv        # K-means clustering results
+├── channel_stats.csv           # Channel statistics
 ├── requirements.txt
-├── Procfile                    # Railway 배포 설정
-├── railway.toml                # Railway 설정
+├── Procfile                    # Railway deployment config
+├── railway.toml
 └── README.md
 ```
 
@@ -199,22 +198,22 @@ vlog-rag-persona-platform/
 
 ## 8. Lessons Learned
 
-**TF-IDF vs Semantic Embedding**
-- TF-IDF는 구현이 간단하고 비용이 없지만, 동의어·문맥 이해가 불가능 — "요리"와 "쿠킹"을 다른 단어로 처리
-- 프로토타입 단계에서 TF-IDF로 시작해 RAG 파이프라인 구조를 검증한 후, semantic embedding으로 업그레이드하는 전략이 효과적
+**TF-IDF vs. Semantic Embedding**
+- TF-IDF is simple and free, but has no synonym or context awareness — "cook" and "cooking" are treated as separate tokens
+- The right approach: start with TF-IDF to validate the RAG pipeline structure, then upgrade to semantic embeddings once the architecture is proven
 
-**Persona Grounding의 중요성**
-- 유사도 임계값(0.1) 없이 모든 청크를 컨텍스트에 포함하면 관련 없는 내용이 응답에 혼입됨
-- Graceful fallback(빈 컨텍스트)이 없으면 검색 실패 시 LLM이 hallucination을 생성 — 안전 장치 필수
+**The Importance of Persona Grounding**
+- Without a similarity threshold, all chunks are included in context and unrelated content bleeds into responses
+- Without a graceful fallback (empty context), retrieval failures trigger hallucinations — safety nets are non-negotiable
 
-**K-means 클러스터링 한계**
-- K-means는 클러스터 수(k)를 사전에 정해야 하며, 인플루언서 라이프스타일의 연속적 스펙트럼을 이산 범주로 강제 분류
-- Elbow method로 k=5를 선택했으나, 실제로는 클러스터 간 경계가 모호한 케이스가 존재
+**K-means Clustering Limitations**
+- K-means requires specifying k in advance, forcing a continuous lifestyle spectrum into discrete buckets
+- Elbow method selected k=5, but in practice several influencers fall ambiguously between clusters
 
-**YouTube API 할당량 관리**
-- 1,560개 영상 메타데이터 수집 과정에서 일일 할당량(10,000 units) 초과 경험
-- 수집 스크립트에 할당량 추적과 자동 일시정지 로직을 처음부터 포함해야 함
+**YouTube API Quota Management**
+- Hitting the 10,000-unit daily quota during bulk collection of 1,560 video metadata was a real constraint
+- Collection scripts should track quota consumption and auto-pause from the beginning
 
 ---
 
-**📞 프로젝트 링크:** [https://github.com/pynoodle/vlog-rag-persona-platform](https://github.com/pynoodle/vlog-rag-persona-platform)
+**📞 Project Link:** [https://github.com/pynoodle/vlog-rag-persona-platform](https://github.com/pynoodle/vlog-rag-persona-platform)
