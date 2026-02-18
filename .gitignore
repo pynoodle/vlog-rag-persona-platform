@@ -138,3 +138,33 @@ channel_ids.json
 
 # Streamlit
 .streamlit/secrets.toml
+# Analysis output text files
+*.txt
+all_topics_analysis.txt
+smartphone_*.txt
+lifestyle_*.txt
+real_smartphone_topics.txt
+
+# Binary executables
+*.exe
+
+# Legacy data files (large / private)
+cluster_analysis*.json
+personas.json
+smartphone_filtered_results.json
+video_to_channel.json
+channel_ids.json
+user_logs.json
+data/
+
+# Vector store (auto-generated, large binary files)
+rag/vector_stores/
+rag/chroma/
+
+# Logs
+logs/
+*.db
+rag/vector_stores_new/
+simple_chat/vector_stores/
+rag/vector_stores_real_reviews/
+simple_chat/data/

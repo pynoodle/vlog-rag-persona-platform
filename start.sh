@@ -14,7 +14,7 @@ if [ -z "$OPENAI_API_KEY" ]; then
 fi
 
 # Streamlit 실행
-exec streamlit run english_persona_gui.py \
+exec streamlit run app.py \
     --server.port $PORT \
     --server.address 0.0.0.0 \
     --server.headless true \
