@@ -3,6 +3,14 @@
 > **Built:** October 2025
 
 YouTube 데이터를 수집하고 AI 클러스터링을 통해 Gen Z 인플루언서들의 라이프스타일을 분석하여 개인화된 페르소나 봇을 제공합니다.
+> **Gen Z 인플루언서 30채널 1,560개 영상을 Whisper STT + K-means 클러스터링으로 분석해 RAG 기반 페르소나 챗봇 구현**  
+> YouTube → Whisper STT → K-means clustering → TF-IDF RAG → GPT persona chat · 500M+ views data · Deployed on Railway
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini_+_Whisper-412991?logo=openai)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_UI-FF4B4B?logo=streamlit)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-K--means_+_TF--IDF-F7931E?logo=scikit-learn)
+![Railway](https://img.shields.io/badge/Railway-Deployed-0B0D0E?logo=railway)
 
 ---
 
